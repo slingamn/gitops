@@ -37,7 +37,7 @@ server:
 
         # Native websockets over TLS on a nonstandard (non-443) port. This is typically not
         # used directly, since application firewalls may block it:
-        ":8097":
+        ":443":
             websocket: true
             tls:
                 key: /ircd/tls/tls.key
